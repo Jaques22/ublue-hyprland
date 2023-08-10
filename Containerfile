@@ -28,11 +28,10 @@ ARG IMAGE_REGISTRY=ghcr.io/ublue-os
 COPY usr /usr
 
 # Copy public key
-COPY cosign.pub /usr/etc/pki/containers/cosign.pub
+COPY cosign.pub /usr/share/ublue-os/cosign.pub
+
 # Copy base signing config
 COPY usr/etc/containers /usr/etc/
-# Copy greetd & systemd configs
-COPY etc /etc
 
 # Copy greetd & systemd configs
 COPY etc /etc
