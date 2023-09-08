@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: ublue-os/startingpoint
+  - label: jaques22/ublue-hyprland
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: startingpoint
+      - label: ublue-hyprland
