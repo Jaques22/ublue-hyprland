@@ -8,7 +8,7 @@ For more info, check out the [uBlue homepage](https://universal-blue.org/) and t
 
 ## Getting started
 
-See the [Make Your Own -page in the documentation](https://universal-blue.org/tinker/make-your-own/) for quick setup instructions for setting up your own repository based on this template.
+See the [Make Your Own-page in the documentation](https://universal-blue.org/tinker/make-your-own/) for quick setup instructions for setting up your own repository based on this template.
 
 Don't worry, it only requires some basic knowledge about using the terminal and git.
 
@@ -156,3 +156,4 @@ After doing that, you'll be able to run the following commands:
 - `just update` - Update rpm-ostree, flatpaks, and distroboxes in one command
 
 Check the [just website](https://just.systems) for tips on modifying and adding your own recipes.
+
