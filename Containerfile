@@ -30,6 +30,9 @@ COPY usr /usr
 # Copy public key
 COPY cosign.pub /usr/share/ublue-os/cosign.pub
 
+# Copy greetd & systemd configs
+COPY etc /etc
+
 # Copy the recipe that we're building.
 COPY ${RECIPE} /usr/share/ublue-os/recipe.yml
 
