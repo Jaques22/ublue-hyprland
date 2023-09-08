@@ -58,8 +58,8 @@ rpm:
   install:
     # Themes
     - libadwaita
-    - adw-gtk3-theme
-    - adwaita-qt6
+    # - adw-gtk3-theme
+    # - adwaita-qt6
 
     # For me
     - zsh
