@@ -71,7 +71,7 @@ rpm:
     - iasl # asus laptop build audio drivers
     
     # Stuff for Hyprland
-    - hyprland
+    - hyprland-git
     - xdg-desktop-portal-hyprland 
     - waybar # status bar
     - wofi # app launcher
