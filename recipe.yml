@@ -69,6 +69,8 @@ rpm:
     - 'gcc-c++' # required for nvchad
     - gh # github creds
     - iasl # asus laptop build audio drivers
+    - p7zip
+    - p7zip-gui
     
     # Stuff for Hyprland
     - hyprland-git
