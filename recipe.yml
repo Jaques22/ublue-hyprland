@@ -67,7 +67,6 @@ rpm:
     - neovim # text editor
     - ranger # term file manager
     - 'gcc-c++' # required for nvchad
-    - 'gcc' # also required for nvchad - provides ld
     - gh # github creds
     - iasl # asus laptop build audio drivers
     - p7zip
