@@ -50,6 +50,7 @@ rpm:
     - https://copr.fedorainfracloud.org/coprs/alebastr/sway-extras/repo/fedora-%FEDORA_VERSION%/alebastr-sway-extras-fedora-%FEDORA_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-%FEDORA_VERSION%/tofik-nwg-shell-fedora-%FEDORA_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/erikreider/SwayNotificationCenter/repo/fedora-%FEDORA_VERSION%/erikreider-SwayNotificationCenter-fedora-%FEDORA_VERSION%.repo
+    - https://copr.fedorainfracloud.org/coprs/trs-sod/swaylock-effects/repo/fedora-%FEDORA_VERSION%/trs-sod-swaylock-effects-fedora-%FEDORA_VERSION%.repo
 
   # These RPMs will be installed from your enabled repositories (Fedora's own
   # repos, extra "repos" you've added, etc). The installation is automatically
@@ -79,7 +80,7 @@ rpm:
     - wofi # app launcher
     - hyprpaper # wallpaper
     - hyprshot # screenshots
-    - swaylock # lock screen
+    - swaylock-effects # lock screen
     - swayidle # lock screen on idle
     - network-manager-applet # network in waybar tray
     - blueman # bluetooth in waybar tray
