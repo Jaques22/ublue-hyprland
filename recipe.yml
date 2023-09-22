@@ -80,7 +80,7 @@ rpm:
     - wofi # app launcher
     - hyprpaper # wallpaper
     - hyprshot # screenshots
-    - swaylock-effects # lock screen
+    # - swaylock-effects # lock screen
     - swayidle # lock screen on idle
     - network-manager-applet # network in waybar tray
     - blueman # bluetooth in waybar tray
